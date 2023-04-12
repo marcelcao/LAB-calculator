@@ -1,0 +1,51 @@
+table {
+  width: 400px;
+  height: 500px;
+}
+
+
+
+.display-box {
+width: 99%;
+background-color: black;
+height: 100%;
+border: 0px solid black;
+}
+
+.clear {
+  background-color: #d8d9db;
+}
+
+.clear:hover {
+  background-color: #ebebeb;
+}
+
+.symbols:active {
+  background-color: #dd8d37;
+}
+
+input[type=button] {
+  width: 100%;
+  height: 100%;
+  font-family:'Courier New', Courier, monospace;
+  font-size: xx-large;
+  border-spacing: 0;
+  border: 0px;
+}
+
+.symbols {
+  background-color: #df974c;
+  color: white;
+}
+
+.symbols:hover {
+  background-color: #dfb07e;
+}
+
+.reg-buttons {
+  background-color: #d8d9db;
+}
+
+.reg-buttons:hover {
+  background-color: #ebebeb;
+}
