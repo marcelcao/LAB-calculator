@@ -3,13 +3,15 @@ table {
   height: 500px;
 }
 
-
-
 .display-box {
 width: 99%;
 background-color: black;
 height: 100%;
 border: 0px solid black;
+color: white;
+font-weight: bold;
+text-align: right;
+font-size: xx-large;
 }
 
 .clear {
@@ -29,6 +31,7 @@ input[type=button] {
   height: 100%;
   font-family:'Courier New', Courier, monospace;
   font-size: xx-large;
+  font-weight: bold;
   border-spacing: 0;
   border: 0px;
 }
@@ -48,4 +51,17 @@ input[type=button] {
 
 .reg-buttons:hover {
   background-color: #ebebeb;
+}
+
+tr {
+  border: 10px solid;
+}
+
+tr td {
+  padding: 0px;
+  border: 0.5px solid black;
+}
+
+.calculator {
+  border-spacing: 0px;
 }
