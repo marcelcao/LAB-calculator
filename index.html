@@ -10,37 +10,40 @@
 <body>
   <table class="calculator">
     <tr>
-     <td colspan="4">
-      <input class="display-box" type="text" value="0">
-     </td>
+      <td colspan="4">
+        <div class="display-box" id="display"></div>
+        <!-- <input class="display-box" type="text"> -->
+       </td>
     </tr>
     <tr>
-      <td colspan="2"><input class="clear" type="button" value="C"></td>
-      <td><input class="symbols" type="button" value="&#8592;"></td>
-      <td><input class="symbols" type="button" value="&#247;"></td>
+      <td colspan="2"><input class="clear" type="button" value="C" id="calcButtons"></td>
+      <td><input class="symbols" type="button" value="←" id="calcButtons">
+      </td>
+      <td><input class="symbols" type="button" value="/"  id="calcButtons"></td>
     </tr>
     <tr>
-      <td><input class="reg-buttons" type="button" value="7"></td>
-      <td><input class="reg-buttons" type="button" value="8"></td>
-      <td><input class="reg-buttons" type="button" value="9"></td>
-      <td><input class="symbols" type="button" value="&#215;"></td>
+      <td><input class="reg-buttons" id="calcButtons" type="button" value="7"></td>
+      <td><input class="reg-buttons" type="button" value="8"  id="calcButtons"></td>
+      <td><input class="reg-buttons" type="button" value="9" id="calcButtons"></td>
+      <td><input class="symbols" type="button" value="*" id="calcButtons"></td>
     </tr>
     <tr>
-      <td><input class="reg-buttons" type="button" value="4"></td>
-      <td><input class="reg-buttons" type="button" value="5"></td>
-      <td><input class="reg-buttons" type="button" value="6"></td>
-      <td><input class="symbols" type="button" value="&#8722;"></td>
+      <td><input class="reg-buttons" type="button" value="4" id="calcButtons"></td>
+      <td><input class="reg-buttons" type="button" value="5" id="calcButtons"></td>
+      <td><input class="reg-buttons" type="button" value="6" id="calcButtons"></td>
+      <td><input class="symbols" type="button" value="-" id="calcButtons"></td>
     </tr>
     <tr>
-      <td><input class="reg-buttons" type="button" value="1"></td>
-      <td><input class="reg-buttons" type="button" value="2"></td>
-      <td><input class="reg-buttons" type="button" value="3"></td>
-      <td><input class="symbols" type="button" value="&#43;"></td>
+      <td><input class="reg-buttons" type="button" value="1"  id="calcButtons"></td>
+      <td><input class="reg-buttons" type="button" value="2"  id="calcButtons"></td>
+      <td><input class="reg-buttons" type="button" value="3" id="calcButtons"></td>
+      <td><input class="symbols" type="button" value="+"   id="calcButtons"></td>
     </tr>
     <tr>
-      <td colspan="3"><input class="reg-buttons" type="button" value="0"></td>
-      <td><input class="symbols" type="button" value="&#61;"></td>
+      <td colspan="3"><input class="reg-buttons" type="button" value="0" id="calcButtons"></td>
+      <td><input class="symbols" type="button" value="&#61;" id="calcButtons"></td>
     </tr>
   </table>
 </body>
+<script src="main.js"></script>
 </html>
