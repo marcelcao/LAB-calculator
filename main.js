@@ -32,7 +32,6 @@ buttons.map( buttons => {
           break;
       default:
           display.innerText += e.target.value;
-          // the methods used here differ a little from the YT video. YT video uses innerText to extract the value from the targeted event. that doesn't apply to me because in my html, my buttons have value assignments that define the values of each button
     }
   });
 });
